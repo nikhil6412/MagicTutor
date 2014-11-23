@@ -25,7 +25,7 @@ public class User{
 	    }
 	   catch(Exception e){
 	     System.out.println("Something broke.");
-	     return "";
+	     return null;
 	   }
 	}
   
