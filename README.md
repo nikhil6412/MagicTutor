@@ -1,6 +1,5 @@
 MagicTutor
 ==========
-Classes :-
 
 Main.java
 ----------
