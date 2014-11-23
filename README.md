@@ -21,12 +21,17 @@ Staff.java
 Teacher.java
 ----------
 -Subclass of Staff.java
--Has createQuiz(), changePassword(), addToGroup(), viewData()
+-Has createQuiz(), changePassword(Student student), addToGroup(), viewData()
 
 Admin.java
 ----------
 -Subclass of Staff.java
 -Has createTeacher(), deleteTeacher(), changePassword()
+
+Student.java
+----------
+-Subclass of User.java
+-Has viewData(), changePassword()
 
 Group.java
 ----------
