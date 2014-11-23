@@ -8,7 +8,7 @@ public class User{
     this.firstName = f;
     this.lastName = l;
     this.userName = u;
-    this.passwordHash = p;
+    this.passwordHash = hash(p);
   }
   public String hash(String password){
     String generatedPassword = null;
